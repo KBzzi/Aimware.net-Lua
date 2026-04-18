@@ -4,23 +4,23 @@ local misc_ref = gui.Reference("Miscellaneous")
 local misc_Movement_Group = gui.Reference("Miscellaneous", "Movement")
 local KB_semiHelper_Group = gui.Groupbox(misc_ref, "[KB]Semi Helper", 17 +350 + 17, 300, 350, 0);
 
-local ToggelAllWeaponAW = gui.Checkbox(KB_semiHelper_Group, "ToggelAllWeaponAW", "[KB]合法穿墙开关", false);
+local ToggelAllWeaponAW = gui.Checkbox(KB_semiHelper_Group, "ToggelAllWeaponAW", "[KB]LegitAWallSwitch", false);
 local drawToggelAllWeaponAWcolor = gui.ColorPicker(ToggelAllWeaponAW, "drawToggelAllWeaponAWcolor", "", 255, 0, 0, 255);
 local drawToggelAllWeaponAWcolor2 = gui.ColorPicker(ToggelAllWeaponAW, "drawToggelAllWeaponAWcolor2", "", 255, 255, 255, 255);
 
-local ToggelAllWeaponSM = gui.Checkbox(KB_semiHelper_Group, "ToggelAllWeaponSM", "[KB]合法穿烟开关", false);
+local ToggelAllWeaponSM = gui.Checkbox(KB_semiHelper_Group, "ToggelAllWeaponSM", "[KB]LegitSmokeSwitch", false);
 local drawToggelAllWeaponSMcolor = gui.ColorPicker(ToggelAllWeaponSM, "drawToggelAllWeaponSMcolor", "", 255, 0, 0, 255);
 local drawToggelAllWeaponSMcolor2 = gui.ColorPicker(ToggelAllWeaponSM, "drawToggelAllWeaponSMcolor2", "", 255, 255, 255, 255);
 
-local SwitchrBot = gui.Checkbox(KB_semiHelper_Group, "SwitchrBot", "[KB]合法/暴力切换", false);
+local SwitchrBot = gui.Checkbox(KB_semiHelper_Group, "SwitchrBot", "[KB]Legit/ViolentSwitch", false);
 local drawSwitchrBotcolor = gui.ColorPicker(SwitchrBot, "drawSwitchrBotcolor", "", 0, 255, 0, 255);
 local drawSwitchrBotcolor2 = gui.ColorPicker(SwitchrBot, "drawSwitchrBotcolor2", "", 255, 255, 255, 255);
 
-local ToggleTrgHitboxChange = gui.Checkbox(KB_semiHelper_Group, "ToggleTrgHitboxChange", "[KB]合法扳机最小伤害", false);
+local ToggleTrgHitboxChange = gui.Checkbox(KB_semiHelper_Group, "ToggleTrgHitboxChange", "[KB]LegitTriggerMinDamage", false);
 local drawToggleTrgHitboxChangecolor = gui.ColorPicker(ToggleTrgHitboxChange, "drawToggleTrgHitboxChangecolor", "", 0, 255, 0, 255);
 local drawToggleTrgHitboxChangecolor2 = gui.ColorPicker(ToggleTrgHitboxChange, "drawToggleTrgHitboxChangecolor2", "", 255, 255, 255, 255);
 
-local SafeTrgFly = gui.Checkbox(KB_semiHelper_Group, "SafeTrgFly", "[KB]在空中时关闭Aimbot", false);
+local SafeTrgFly = gui.Checkbox(KB_semiHelper_Group, "SafeTrgFly", "[KB]LegitTriggerFly", false);
 
 local weapongroup = {"shared","zeus","pistol","hpistol","smg","rifle","shotgun","scout","asniper","sniper","lmg"}
 
